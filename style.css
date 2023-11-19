@@ -1,0 +1,102 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(feather%20blue.jpg);
+    background-size:cover;
+    background-position:center;
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background: rgba(167,199,231);
+    text-align: center;
+    width: inherit;
+}
+.menu-bar ul
+{
+    display:inline-flex;
+    list-style: none;
+    color: black;
+}
+.menu-bar ul li
+{
+    width:120px;
+    margin: 3px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration:none;
+    color: black;
+}
+.menu-bar ul li a:hover
+{
+    background: pink;
+    border:3px;  
+}
+
+.sub-menu-1
+{
+    display:none;
+}
+
+.menu-bar ul li:hover .sub-menu-1
+{
+    display:block;
+    position: absolute;
+    background: rgb(167,199,231);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius:0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: black;
+}
+
+.content
+{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;  
+}
+
+.content h1
+{
+    font-size: 40px;
+    margin-top: 50px;
+}
+.content p
+{
+    margin: 50px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 25px;
+}

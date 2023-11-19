@@ -1,0 +1,215 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(feather%20blue.jpg);
+    background-size:cover;
+    background-position:center;
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background: rgba(167,199,231);
+    text-align: center;
+    width:inherit;
+}
+.menu-bar ul
+{
+    display:inline-flex;
+    list-style: none;
+    color: black;
+}
+.menu-bar ul li
+{
+    width:120px;
+    margin: 3px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration:none;
+    color: black;
+}
+.menu-bar ul li a:hover
+{
+    background: pink;
+    border:3px;  
+}
+
+.sub-menu-1
+{
+    display:none;
+}
+
+.menu-bar ul li:hover .sub-menu-1
+{
+    display:block;
+    position: absolute;
+    background: rgb(167,199,231);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius:0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: black;
+}
+
+.content
+{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;  
+}
+
+.content h1
+{
+    font-size: 40px;
+    margin-top: 50px;
+}
+.content p
+{
+    margin: 50px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 25px;
+}
+
+ *
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body
+{
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    min-height:  50vh;  
+    
+}
+
+h2
+{
+    
+    color:#fff;
+    font-size: 18;
+    margin-bottom:10;
+    margin-top: 45;
+}
+
+p
+{
+    color:#fff;
+    font-size: 19;
+    line-height:1.5;
+    margin:22;
+    margin-top: -0;
+}
+
+exp {
+    margin-left: 1075px;
+    text-align: left;
+    margin-top: 135;
+    max-width: 385px;
+
+}
+
+.img 
+{
+   float:right; 
+}
+
+.btn
+{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: yellow;
+    width:160px;
+    padding:20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration:0.3s;
+    transition-duration:0.3s;
+    -webkit-transition-property:box-shadow, transform;
+    transition-property:box-shadow, transform;
+ 
+}  
+
+.btn:hover, .btn:focus, .btn:active
+{
+   box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.donkey-img 
+{
+    margin: 60;
+    margin-top:30;
+    margin-bottom: inherit;
+    width: 980;
+    margin-left: 275;  
+}
+
+.mule-acc{
+    text-align: center;
+    padding-bottom: 63;
+    margin-right:155;
+    margin-top: 25;
+
+}
+
+.mule-acc  .video
+{
+    margin-top: 10px;
+}
+
+.video{
+    text-align: center;
+    padding:39px;
+    margin-top: -122;
+    margin-left: 200;
+   
+}
+
+.donkey-img 
+
+{
+    border-radius:8%;
+}
